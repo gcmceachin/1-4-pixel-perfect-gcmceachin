@@ -14,7 +14,14 @@ ul {
   display: block;
   height: 60px;
 }
-.fa f{
+
+.nav-left li{
+  padding: 5px;
+  color: gray;
+}
+.nav-social li{
+    padding: 5px;
+    color: gray;
 
 }
 
@@ -56,6 +63,17 @@ aside {
   display: inline-block;
   float: right;
 }
-.box-one {
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.nav-social li {
   display: inline-block;
+  height: 2px;
+  margin: 10px;
 }
