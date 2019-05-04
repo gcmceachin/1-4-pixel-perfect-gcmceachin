@@ -45,8 +45,11 @@ a:hover {
 }
 
 span {
-  margin: 0 auto;
-  width: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button{
 }
 
 h1 {
