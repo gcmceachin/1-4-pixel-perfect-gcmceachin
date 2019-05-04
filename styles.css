@@ -9,20 +9,22 @@ img {
 body {
   font-family: "Lato";
   /* background-color: #f4f4f4; */
-  background-color: #ecfd68
+  background-color: #ecfd68;
 }
 
 ul {
-  display: block;
   height: 60px;
+  display: inline-block;
 }
 
 .nav-left li {
+  display: inline-block;
   padding: 5px;
   color: gray;
 }
 
 .nav-social li {
+  display: inline-block;
   padding: 5px;
   color: gray;
 }
@@ -33,17 +35,7 @@ a {
 }
 
 a:hover {
-  background-color: rgba(0, 4, 255, 0)
-}
-
-.nav-left, .nav-right {
-  display: inline-block;
-  height: 20px;
-}
-
-.nav-left li, .nav-right li {
-  display: inline-block;
-  height: 2px;
+  background-color: rgba(0, 4, 255, 0);
 }
 
 .nav-right {
@@ -52,21 +44,16 @@ a:hover {
   left: 35%;
 }
 
-section {
-  text-align: center;
-}
-
-button {
-  text-align: center;
-
-}
 span {
- margin: 0 auto;
- width: 10px;
+  margin: 0 auto;
+  width: 10px;
 }
+
 h1 {
   margin: 0 auto;
-  width: 300px;
+  width: 190px;
+  padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 h4 {
@@ -74,7 +61,6 @@ h4 {
   width: 305px;
   text-align: center;
 }
-
 
 main {
   width: 50%;
