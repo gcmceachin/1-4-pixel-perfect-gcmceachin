@@ -42,14 +42,17 @@ a:hover {
   position: relative;
   top: 0;
   left: 35%;
+  padding: 0.5em 0.7em;
 }
 
-span {
-  padding-top: 10px;
-  padding-bottom: 10px;
+section {
+  position: relative;
 }
 
-button{
+button {
+  display: block;
+  border-bottom: solid 2px #ccc;
+  margin: 0 auto;
 }
 
 h1 {
@@ -113,3 +116,20 @@ div {
 .box-four {}
 
 .final-images {}
+
+footer {
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.warm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
