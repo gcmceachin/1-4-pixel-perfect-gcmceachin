@@ -13,11 +13,18 @@ body {
 ul {
   display: block;
   height: 60px;
+}
+.fa f{
 
 }
 
 a {
   text-decoration: none;
+color: black;
+}
+
+a:hover {
+  background-color: rgba(0, 4, 255, 0)
 }
 
 .nav-left, .nav-right {
@@ -48,4 +55,7 @@ aside {
   width: 30%;
   display: inline-block;
   float: right;
+}
+.box-one {
+  display: inline-block;
 }
