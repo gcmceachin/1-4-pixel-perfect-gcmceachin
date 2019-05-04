@@ -7,7 +7,9 @@ img {
 }
 
 body {
-  font-family: "Lato"
+  font-family: "Lato";
+  /* background-color: #f4f4f4; */
+  background-color: #ecfd68
 }
 
 ul {
@@ -15,19 +17,19 @@ ul {
   height: 60px;
 }
 
-.nav-left li{
+.nav-left li {
   padding: 5px;
   color: gray;
 }
-.nav-social li{
-    padding: 5px;
-    color: gray;
 
+.nav-social li {
+  padding: 5px;
+  color: gray;
 }
 
 a {
   text-decoration: none;
-color: black;
+  color: black;
 }
 
 a:hover {
@@ -42,24 +44,47 @@ a:hover {
 .nav-left li, .nav-right li {
   display: inline-block;
   height: 2px;
+}
+
+.nav-right {
+  position: relative;
+  top: 0;
+  left: 35%;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  text-align: center;
 
 }
-.nav-right{
-  position: relative;
-  top: 0; left: 35%;
-
+span {
+ margin: 0 auto;
+ width: 10px;
 }
 h1 {
   margin: 0 auto;
-  width:300px;
+  width: 300px;
 }
+
+h4 {
+  margin: 0 auto;
+  width: 305px;
+  text-align: center;
+}
+
+
 main {
   width: 50%;
-  margin: 10%;
+  margin-left: 10%;
   display: inline-block;
 }
+
 aside {
-  width: 30%;
+  width: 28%;
+  margin-right: 10%;
   display: inline-block;
   float: right;
 }
@@ -72,8 +97,30 @@ p {
   text-align: center;
 }
 
-.nav-social li {
-  display: inline-block;
-  height: 2px;
-  margin: 10px;
+div {
+  position: relative;
 }
+
+.margin-bottom {
+  margin-bottom: 100px;
+}
+
+.box-one {
+  text-align: center;
+  width: 0 auto;
+}
+
+.box-one li {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.7em;
+}
+
+.box-two {}
+
+.box-three {}
+
+.box-four {}
+
+.final-images {}
