@@ -8,13 +8,18 @@ img {
 
 body {
   font-family: "Lato";
-  /* background-color: #f4f4f4; */
-  background-color: #ecfd68;
+  background-color: #f4f4f4;
+  margin-bottom: auto;
 }
 
 ul {
   height: 60px;
   display: inline-block;
+}
+
+.container {
+  background-color: white;
+  height: 60px;
 }
 
 .nav-left li {
@@ -48,19 +53,21 @@ a:hover {
 section {
   position: relative;
     border: solid 1px;
+    width: 720px;
 }
 
 button {
   display: block;
   border-bottom: solid 2px #ccc;
   margin: 0 auto;
+  background-color: #f4f4f4;
 }
 
 h1 {
   margin: 0 auto;
   width: 190px;
   padding-bottom: 50px;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 h4 {
@@ -130,6 +137,8 @@ img {
 
 footer {
   position: relative;
+  width: 100%;
+  height: 100px;
 }
 p {
   align-items: center;
