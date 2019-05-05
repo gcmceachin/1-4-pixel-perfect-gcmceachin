@@ -91,15 +91,18 @@ p {
 
 div {
   position: relative;
+  margin: 1px auto;
+  width: 90%;
 }
-
 .margin-bottom {
   margin-bottom: 100px;
 }
 
+
 .box-one {
   text-align: center;
   width: 0 auto;
+    border: solid 1px;
 }
 
 .box-one li {
@@ -109,14 +112,16 @@ div {
   padding: 0.5em 0.7em;
 }
 img {
-  
+
 }
 
-.box-two {}
+.box-two {
+    border: solid 1px;
+}
 
-.box-three {}
+.box-three {  border: solid 1px;}
 
-.box-four {}
+.box-four {  border: solid 1px;}
 
 .final-images {
 
