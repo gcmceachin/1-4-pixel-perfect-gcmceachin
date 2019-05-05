@@ -47,6 +47,7 @@ a:hover {
 
 section {
   position: relative;
+    border: solid 1px;
 }
 
 button {
