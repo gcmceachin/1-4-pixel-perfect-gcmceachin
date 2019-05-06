@@ -149,7 +149,9 @@ div {
 }
 
 .final-images {
-  display: inline-grid;
+  display: inline-block;
+  top: 50%
+
 }
 
 footer {
