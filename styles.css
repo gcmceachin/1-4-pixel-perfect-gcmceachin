@@ -13,7 +13,7 @@ body {
 }
 
 ul {
-  height: 60px;
+  height: 35px;
   display: inline-block;
 }
 
@@ -36,7 +36,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: gray;
 }
 
 a:hover {
@@ -52,8 +52,17 @@ a:hover {
 
 section {
   position: relative;
-    border: solid 1px;
-    width: 720px;
+  border: solid 1px;
+  width: 720px;
+}
+
+.p-TRAVEL{
+  color: rgb(204, 126, 102);
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button {
@@ -61,6 +70,13 @@ button {
   border-bottom: solid 2px #ccc;
   margin: 0 auto;
   background-color: #f4f4f4;
+}
+
+button {
+  border-color: rgb(186, 186, 186);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1px 7px 2px;
 }
 
 h1 {
@@ -102,15 +118,15 @@ div {
   margin: 1px auto;
   width: 90%;
 }
+
 .margin-bottom {
   margin-bottom: 100px;
 }
 
-
 .box-one {
   text-align: center;
   width: 0 auto;
-    border: solid 1px;
+  border: solid 1px;
 }
 
 .box-one li {
@@ -119,30 +135,32 @@ div {
   box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.7em;
 }
-img {
-
-}
 
 .box-two {
-    border: solid 1px;
+  border: solid 1px;
 }
 
-.box-three {  border: solid 1px;}
+.box-three {
+  border: solid 1px;
+}
 
-.box-four {  border: solid 1px;}
+.box-four {
+  border: solid 1px;
+}
 
 .final-images {
-
+  display: inline-grid;
 }
 
 footer {
   position: relative;
   width: 100%;
-  height: 100px;
 }
+
 p {
   align-items: center;
 }
+
 .test {
   position: absolute;
   left: 0;
